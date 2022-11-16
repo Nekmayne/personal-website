@@ -1,0 +1,52 @@
+.about {
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    margin: auto;
+    padding: 6rem 1rem 0 1rem;
+    width: 100%;
+}
+
+.about .container {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.about .container img {
+    
+}
+
+.about h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.about .column-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+   .about .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+   } 
+
+   .about .container img {
+    
+    padding: 0rem;
+    width: 100%;
+    
+   }
+
+   .about .container .column-2 {
+    padding: 0;
+   }
+
+}

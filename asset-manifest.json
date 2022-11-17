@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.eb0af661.css",
-    "main.js": "/personal-website/static/js/main.593e13bb.js",
+    "main.css": "/personal-website/static/css/main.5bb1077c.css",
+    "main.js": "/personal-website/static/js/main.0333b647.js",
+    "static/media/silver21.jpg": "/personal-website/static/media/silver21.f85be4ef38a5287a60d6.jpg",
     "static/media/silver17.jpg": "/personal-website/static/media/silver17.583deb2d6441675c3072.jpg",
     "static/media/red17.jpg": "/personal-website/static/media/red17.425fd35bfdb40cb27a31.jpg",
     "static/media/red20.jpg": "/personal-website/static/media/red20.a50b2276ed32ecfedaab.jpg",
+    "static/media/green15.jpg": "/personal-website/static/media/green15.3dda8fa5440bc1ee1acd.jpg",
     "static/media/keyboard.jpg": "/personal-website/static/media/keyboard.acce825e6925c1bd2de1.jpg",
     "static/media/profile.png": "/personal-website/static/media/profile.024b77b16559cdf2c0e8.png",
     "static/media/logo.png": "/personal-website/static/media/logo.0a6bec2a93a39da09aae.png",
@@ -12,11 +14,11 @@
     "static/media/revicons.ttf": "/personal-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/personal-website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/personal-website/index.html",
-    "main.eb0af661.css.map": "/personal-website/static/css/main.eb0af661.css.map",
-    "main.593e13bb.js.map": "/personal-website/static/js/main.593e13bb.js.map"
+    "main.5bb1077c.css.map": "/personal-website/static/css/main.5bb1077c.css.map",
+    "main.0333b647.js.map": "/personal-website/static/js/main.0333b647.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb0af661.css",
-    "static/js/main.593e13bb.js"
+    "static/css/main.5bb1077c.css",
+    "static/js/main.0333b647.js"
   ]
 }

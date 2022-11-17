@@ -3,6 +3,9 @@
     /* background-image: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%); */
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   
 }
 
@@ -59,13 +62,14 @@
     color: white;
     margin-top: 15px;
     text-transform: uppercase;
+    margin-left: 40px;
   }
 
 .main-text {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     color: white;
     width: 100%;
 }
@@ -85,7 +89,13 @@
         display: flex;
         flex-direction: column;
         justify-content:center;
+        text-align: center;
         
+    }
+
+    .main-buttons {
+        display: flex;
+        justify-content: center;
     }
 
 }

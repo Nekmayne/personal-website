@@ -71,7 +71,7 @@ const NavBar = () => {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-120}
                   duration={1000}
                   onClick={closeMobileMenu}
                 >

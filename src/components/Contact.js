@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const sendEmail = (e) => {
+const SendEmail = (e) => {
   e.preventDefault();
 
   emailjs
     .sendForm(
-      "service_02gt7ob",
-      "template_iyqmv7x",
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       e.target,
-      "AJgGXGCKOPlMpgkou"
+      process.env.REACT_APP_PUBLIC_KEY
     )
     .then((res) => {
       console.log(res);
@@ -19,13 +21,26 @@ const sendEmail = (e) => {
   e.target.reset();
 };
 
+const notify = () => {
+  toast.success("Message successfully sent!", {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "colored",
+  });
+};
+
 const Contact = () => {
   return (
     <div className="contact">
       <div className="box">
         <h1>Get In Touch</h1>
         <div className="contact-container">
-          <form className="" onSubmit={sendEmail}>
+          <form className="" onSubmit={SendEmail}>
             <div className="input-box">
               <input type="text" name="name" placeholder="Name" />
             </div>
@@ -35,7 +50,26 @@ const Contact = () => {
             <div className="input-box">
               <textarea name="message" rows="5" placeholder="Message" />
             </div>
-            <input className="contact-button" type="submit" value="send" />
+            <div className="btn">
+              <input
+                onClick={notify}
+                className="contact-button"
+                type="submit"
+                value="send"
+              />
+            </div>
+            <ToastContainer
+              position="top-center"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="colored"
+            />
           </form>
         </div>
       </div>

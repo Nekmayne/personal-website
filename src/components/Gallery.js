@@ -3,6 +3,8 @@ import "./Gallery.css";
 import red17 from "../images/red17.jpg";
 import red20 from "../images/red20.jpg";
 import silver17 from "../images/silver17.jpg";
+import green15 from "../images/green15.jpg";
+import silver21 from "../images/silver21.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -49,12 +51,12 @@ const Gallery = () => {
             <p>Sexton Firebird 2017 - 300$</p>
           </div>
           <div className="card">
-            <img src={silver17} alt="silver20" />
-            <p>Sexton Firebird 2017 - 300$</p>
+            <img src={green15} alt="green15" />
+            <p>Sexton Firebird 2015 - 350$</p>
           </div>
           <div className="card">
-            <img src={silver17} alt="silver20" />
-            <p>Sexton Firebird 2017 - 300$</p>
+            <img src={silver21} alt="silver21" />
+            <p>Sexton Firebird 2021 - 80$</p>
           </div>
         </Carousel>
       </div>

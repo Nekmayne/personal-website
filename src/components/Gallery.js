@@ -29,8 +29,8 @@ const Gallery = () => {
       <div className="container">
         <h1>Gallery</h1>
         <h3>
-          This gallery is about displaying some of my most valueable disc golf
-          discs
+          This gallery is about displaying some of my most valuable disc golf
+          discs.
         </h3>
         <Carousel
           responsive={responsive}

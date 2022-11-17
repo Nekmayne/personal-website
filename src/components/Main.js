@@ -9,12 +9,12 @@ const Main = () => {
     <div className="main-container" id="main">
       <div className="main-text">
         <h1 className="animate__animated animate__fadeInLeft">
-          Hello, my name is Joonas and I am a software developer student looking
-          for my first job!
+          Hello, my name is Joonas, and I am a software developer student
+          looking for my first job!
         </h1>
         <p>
-          Check out rest of the website by scrolling down or clicking "Read
-          more" button!
+          Check out the rest of the website by scrolling down or clicking the
+          "Read more" button!
         </p>
         <div className="main-buttons">
           <Link

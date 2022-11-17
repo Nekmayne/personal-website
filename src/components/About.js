@@ -12,10 +12,10 @@ const About = () => {
         </div>
         <div className="column-2">
           <h2>
-            My name is Joonas and I am 24 year old software developer student.
-            Currently I am finishing my studies in Haaga-Helia and seeking for
-            my first job. I like doing all sorts of stuff in my freetime which
-            includes disc golfing, running, tennis, calisthenics.
+            My name is Joonas, and I am a 24-year-old software developer
+            student. I am finishing my studies in Haaga-Helia and seeking my
+            first job. Disc golfing, running, tennis, and calisthenics are my
+            go-to activities in my free time.
           </h2>
         </div>
       </div>

@@ -7,3 +7,18 @@
 .vertical-timeline-element-date {
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1229px) {
+    .vertical-timeline::before {
+        height: 100.5%;
+    
+    }
+}
+
+
+@media screen and (max-width: 434px) {
+    .vertical-timeline::before {
+        height: 98%;
+    
+    }
+}

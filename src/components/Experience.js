@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { IoSchoolSharp } from "react-icons/io5";
+import { IoSchoolSharp, IoBriefcase } from "react-icons/io5";
 import "./Experience.css";
 
 const Experience = () => {
@@ -36,7 +36,7 @@ const Experience = () => {
           className="vertical-timeline-element--education"
           date="July 2019 - December 2019"
           iconStyle={{ background: "#2DC84D", color: "#fff" }}
-          icon={<IoSchoolSharp />}
+          icon={<IoBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">
             Järvenpää Postal Office
@@ -50,9 +50,9 @@ const Experience = () => {
             fontSize: "1.5rem",
           }}
           className="vertical-timeline-element--education"
-          date="September 2017 - December 2017"
+          date="August 2017 - December 2017"
           iconStyle={{ background: "#2DC84D", color: "#fff" }}
-          icon={<IoSchoolSharp />}
+          icon={<IoBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">Inex Group OY</h3>
           <p>Warehouse Worker</p>

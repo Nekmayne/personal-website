@@ -52,6 +52,18 @@ const NavBar = () => {
             </li>
             <li>
               <Link
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={-120}
+                duration={1000}
+                onClick={closeMobileMenu}
+              >
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="gallery"
                 spy={true}
                 smooth={true}
@@ -72,18 +84,6 @@ const NavBar = () => {
                 onClick={closeMobileMenu}
               >
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="experience"
-                spy={true}
-                smooth={true}
-                offset={-120}
-                duration={1000}
-                onClick={closeMobileMenu}
-              >
-                Experience
               </Link>
             </li>
           </ul>

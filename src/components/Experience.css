@@ -1,0 +1,9 @@
+.experience {
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
+}
+
+.vertical-timeline-element-date {
+    color: #FFFFFF;
+}

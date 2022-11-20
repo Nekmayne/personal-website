@@ -5,16 +5,21 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import "./styles.css";
+import Experience from "./components/Experience";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Main />
-      <About />
-      <Gallery />
-      <Contact />
-      <Footer />
+      <Router>
+        <NavBar />
+        <Main />
+        <About />
+        <Experience />
+        <Gallery />
+        <Contact />
+        <Footer />
+      </Router>
     </div>
   );
 }

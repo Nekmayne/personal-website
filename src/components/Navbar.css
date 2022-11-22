@@ -1,135 +1,110 @@
-.navigation {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    height: 120px;
-    width: 100%;
-    z-index: 1;
-    transition: 0.3s ease-in;
-    overflow: hidden;
-    color: black;
-    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-  }
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.09);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  z-index: 1;
+}
 
-  
-  .navigation img {
-    width: 100px;
-    height: auto;
-    margin-left: 15px;
-    filter: invert(97%) sepia(91%) saturate(128%) hue-rotate(234deg) brightness(120%) contrast(100%);
-    cursor: pointer;
-  }
-  
-  .navigation-menu {
-    margin-left: 200px;
-    
-    
-  }
-  
-  .navigation-menu ul {
-    display: flex;
-    padding: 0;
-    
-  }
-  
-  .navigation-menu li {
-    list-style-type: none;
-    margin: 0 1rem;
-    
-  }
-  
-  .navigation-menu li a {
+.navbar-container img {
+  width: 100px;
+  filter: invert(97%) sepia(91%) saturate(128%) hue-rotate(234deg) brightness(120%) contrast(100%);
+  cursor: pointer;
+}
 
-    text-decoration: none;
-    color: white;
-    display: block;
-    width: 100%;
-    font-size: 25px;
-    border-bottom: 3px solid transparent;
- 
-  }
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 
-  .navigation-menu li a:hover {
-    text-decoration: none;
-    color: white;
-    display: block;
-    width: 100%;
-    font-size: 25px;
-    cursor: pointer;
-    border-image: linear-gradient(45deg, #F6F2F2, #D9D9D9);
-    border-image-slice: 1;
-    width:100%;
-  }
-  
-  .hamburger-menu
-  {
+.navbar-container .nav-menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 25px;
-    transform: translateY(-50%);
-    display: none;
-    
-  }
-  
-  @media screen and (max-width: 730px) {
-    .navigation-menu {
-      margin-left: 50px;
-    }
-  }
-  
-  
-  @media screen and (max-width: 655px) {
-    .hamburger-menu {
+.nav-menu .nav-item {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+  font-size: 25px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-menu .nav-item:hover {
+  text-decoration: none;
+  cursor: pointer;
+  border-image: linear-gradient(45deg, #F6F2F2, #D9D9D9);
+  border-image-slice: 1;
+  width:100%;
+}
+
+.navbar-container .hamburger-menu
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-container .hamburger-menu {
       display: block;
-      z-index: 1;
-      
+      cursor: pointer;
     }
 
-    .navigation {
-        width: 100%;
-    }
-
-
-    .navigation-menu ul {
+    .nav-menu {
+      display: flex;
       flex-direction: column;
+      width: 100%;
+      height: 100vh;
       position: fixed;
-      top: 120px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
       left: 0;
-      width: 100%;
-      height: 90vh;
+      transition: all 0.5s ease;
+      position: fixed;
+      top: 0px;
+      width: 65%;
+      height: 100vh;
       background-color: black;
-      border-top: 1px solid black;
-      display: none;
-      
-      
+      z-index: 1;
+   
+    }
+
+    .nav-menu.active li a {
+        color: white;
+        padding: 3rem 0;
+        font-size: 25px;
+        border-bottom: none;
+    }
+
+    .nav-menu.active li:hover {
+      background-color: rgba(231, 227, 232, 0.074);
     }
   
-    .navigation-menu li {
+    .nav-links {
       text-align: center;
-      margin: 0;
-
-    }
-  
-    .navigation-menu li a {
-      color: white;
+      padding: 2rem;
       width: 100%;
-      padding: 3rem 0;
-      font-size: 20px;
-      
+      display: table;
     }
   
-    .navigation-menu li:hover {
-      background-color: rgba(232, 227, 227, 0.074);
-    }
-
-  
-    .navigation-menu.expanded ul {
-      display: block;
-  
-    }
-
-
-  }
+}

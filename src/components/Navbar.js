@@ -1,18 +1,35 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { FaHamburger, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import logo from "../images/logo.png";
 import "./Navbar.css";
 
 const NavBar = () => {
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside, true);
+  });
+
+  const refOne = useRef(null);
+
+  const handleClickOutside = (e) => {
+    if (!refOne.current.contains(e.target)) {
+      closeMobileMenu();
+    } else {
+      console.log("clicked inside");
+    }
+  };
   const [menu, setMenu] = useState(false);
   const handleMenu = () => setMenu(!menu);
 
   const closeMobileMenu = () => setMenu(false);
 
+  menu
+    ? (document.body.style.overflow = "hidden")
+    : (document.body.style.overflow = "auto");
+
   return (
     <div className="navbar">
-      <nav className="navigation">
+      <nav className="navbar-container">
         <Link to="main" spy={true} smooth={true} offset={0} duration={1000}>
           <img src={logo} alt="logo" />
         </Link>
@@ -24,70 +41,74 @@ const NavBar = () => {
             <FaHamburger size={30} style={{ color: "white" }} />
           )}
         </div>
-        <div className={menu ? "navigation-menu expanded" : "navigation-menu"}>
-          <ul>
-            <li>
-              <Link
-                to="main"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={1000}
-                onClick={closeMobileMenu}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={1000}
-                onClick={closeMobileMenu}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="experience"
-                spy={true}
-                smooth={true}
-                offset={-120}
-                duration={1000}
-                onClick={closeMobileMenu}
-              >
-                Experience
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="gallery"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={1000}
-                onClick={closeMobileMenu}
-              >
-                Gallery
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-120}
-                duration={1000}
-                onClick={closeMobileMenu}
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
+
+        <ul className={menu ? "nav-menu active" : "nav-menu"} ref={refOne}>
+          <li className="nav-item">
+            <Link
+              to="main"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={1000}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1000}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="experience"
+              spy={true}
+              smooth={true}
+              offset={-120}
+              duration={1000}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Experience
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="gallery"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1000}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Gallery
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-120}
+              duration={1000}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
       </nav>
     </div>
   );

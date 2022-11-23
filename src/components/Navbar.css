@@ -78,6 +78,7 @@
     }
   
     .nav-menu.active {
+      display: flex;
       left: 0;
       transition: all 0.5s ease;
       position: fixed;
@@ -86,12 +87,16 @@
       height: 100vh;
       background-color: black;
       z-index: 1;
-   
+      justify-content: flex-start;
+    }
+
+    .nav-menu.active .nav-item {
+      padding: 15px;
     }
 
     .nav-menu.active li a {
         color: white;
-        padding: 3rem 0;
+        padding: 1rem 0;
         font-size: 25px;
         border-bottom: none;
     }
@@ -106,5 +111,7 @@
       width: 100%;
       display: table;
     }
+
+ 
   
 }

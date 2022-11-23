@@ -36,9 +36,9 @@ const NavBar = () => {
 
         <div className="hamburger-menu" onClick={handleMenu}>
           {menu ? (
-            <FaTimes size={30} style={{ color: "white" }} />
+            <FaTimes size={40} style={{ color: "white" }} />
           ) : (
-            <FaHamburger size={30} style={{ color: "white" }} />
+            <FaHamburger size={40} style={{ color: "white" }} />
           )}
         </div>
 

@@ -1,3 +1,6 @@
-# Getting Started with Create React App
+# Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### I created this website to showcase some of my skills and learn new cool features about javascript and css. 
+It is mobile friendly single page application running on a server and it has some cool features such as contact me page. 
+
+### The website was created using react, css and some libraries that I found useful. 

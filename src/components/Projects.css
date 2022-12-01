@@ -1,0 +1,80 @@
+.projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+.projects .my-projects {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.project-list {
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.project-item {
+    border-radius: 15px;
+    width: 190px;
+    height: 320px;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-image: linear-gradient(to left, #b06ab3 2%, #4568dc 80%);
+    color: white;
+  }
+
+  .project-item:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .project-item .bg-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .project-title {
+    margin-top: 0px;
+    margin-bottom: -20px;
+    color: white;
+  }
+
+  .project-item h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .project-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    .project-item {
+        width: 400px;
+        height: 400px;
+      }
+    
+}
+
+@media  screen and  (max-width: 1000px){
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+}

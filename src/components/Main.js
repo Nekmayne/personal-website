@@ -15,6 +15,7 @@ const Main = () => {
           Check out the rest of the website by scrolling down or clicking the
           "Read more" button!
         </p>
+
         <div className="main-buttons">
           <Link
             to="about"

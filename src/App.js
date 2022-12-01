@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import "./styles.css";
 import Experience from "./components/Experience";
+// import Projects from "./components/Projects";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Main />
         <About />
         <Experience />
+        {/*<Projects /> */}
         <Gallery />
         <Contact />
         <Footer />

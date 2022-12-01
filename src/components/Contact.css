@@ -51,6 +51,8 @@
     height: 15px;
     border: none;
     outline: none;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
 }
 
 .input-box textarea{
@@ -62,6 +64,12 @@
     resize: none;
     border: none;
     outline: none;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+}
+
+::placeholder{
+    color: white;
 }
 
 .contact-button {

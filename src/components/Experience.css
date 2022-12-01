@@ -1,6 +1,6 @@
 .experience {
     width: 100%;
-    height: 900px;
+    height: auto;
     background-image: linear-gradient(to left, #434343 0%, black 100%);
 }
 
@@ -8,17 +8,3 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1229px) {
-    .vertical-timeline::before {
-        height: 100.5%;
-    
-    }
-}
-
-
-@media screen and (max-width: 434px) {
-    .vertical-timeline::before {
-        height: 98%;
-    
-    }
-}

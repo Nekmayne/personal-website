@@ -51,7 +51,7 @@
     color: #b06ab3;
     margin-top: 15px;
     text-transform: uppercase;
-    margin-right: 10px;
+    
     font-weight: 700;
   }
 
@@ -72,6 +72,14 @@
     color: white;
     width: 100%;
     margin-top: 20px;
+}
+
+.main-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
 }
 
 @media screen and (max-width: 1270px) {

@@ -57,7 +57,7 @@
 
 .input-box textarea{
     border-radius: 25px;
-    border: 2px solid white;
+    border: none;
     padding: 20px; 
     width: 564px;
     height: 160px; 

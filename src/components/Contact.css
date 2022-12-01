@@ -96,7 +96,6 @@
 @media screen and (max-width: 600px) {
     .input-box textarea{
         border-radius: 25px;
-        border: 2px solid white;
         padding: 20px; 
         width: 350px;
         height: 160px; 

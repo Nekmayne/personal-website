@@ -4,14 +4,15 @@
   flex-direction: column;
   height: 120px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.09);
-  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  background-image: linear-gradient(to left, #100f0f 0%, rgb(5, 5, 5) 100%);
   z-index: 9999;
 }
 
+
+
 .navbar-container img {
   width: 100px;
-  filter: invert(97%) sepia(91%) saturate(128%) hue-rotate(234deg) brightness(120%) contrast(100%);
+  fill: white;
   cursor: pointer;
 }
 

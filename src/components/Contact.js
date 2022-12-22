@@ -15,6 +15,7 @@ const SendEmail = (e) => {
       process.env.REACT_APP_PUBLIC_KEY
     )
     .then((res) => {
+      notify();
       console.log(res);
     })
     .catch((err) => console.log(err));
@@ -40,23 +41,23 @@ const Contact = () => {
       <div className="box">
         <h1>Get In Touch</h1>
         <div className="contact-container">
-          <form className="" onSubmit={SendEmail}>
+          <form className="formID" onSubmit={SendEmail}>
             <div className="input-box">
-              <input type="text" name="name" placeholder="Name" />
+              <input type="text" name="name" placeholder="Name" required />
             </div>
             <div className="input-box">
-              <input type="email" name="email" placeholder="Email" />
+              <input type="email" name="email" placeholder="Email" required />
             </div>
             <div className="input-box">
-              <textarea name="message" rows="5" placeholder="Message" />
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Message"
+                required
+              />
             </div>
             <div className="btn">
-              <input
-                onClick={notify}
-                className="contact-button"
-                type="submit"
-                value="send"
-              />
+              <input className="contact-button" type="submit" value="send" />
             </div>
             <ToastContainer
               position="top-center"

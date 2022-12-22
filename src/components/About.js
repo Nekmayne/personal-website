@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-image">
           <img src={Profile} alt="profile" />
         </div>
-        <div className="column-2">
+        <div className="column-1">
           <h2>
             My name is Joonas, and I am a 24-year-old software developer
             student. I am finishing my studies in Haaga-Helia and seeking my

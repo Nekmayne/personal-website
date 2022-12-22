@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaHamburger, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import logo from "../images/logo.png";
+import logo from "../images/jn-logo.png";
 import "./Navbar.css";
 
 const NavBar = () => {

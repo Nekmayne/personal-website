@@ -1,7 +1,8 @@
 .footer {
     width: 100%;
-    height: 300px;
-    background-image: linear-gradient(to left, #434343 0%, black 100%);
+    height: 200px;
+    background-image: linear-gradient(to right, #4568dc 0%, #b06ab3 50%);
+
     /* color: white; */
     display: flex;
     justify-content: center;

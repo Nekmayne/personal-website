@@ -61,7 +61,7 @@ const NavBar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-120}
               duration={1000}
               className="nav-links"
               onClick={closeMobileMenu}

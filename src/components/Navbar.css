@@ -8,12 +8,12 @@
   z-index: 9999;
 }
 
-
-
 .navbar-container img {
   width: 100px;
   fill: white;
   cursor: pointer;
+  margin-left: 15px;
+  margin-right: 20px;
 }
 
 .navbar-container {

@@ -19,7 +19,7 @@ const Experience = () => {
           }}
           className="vertical-timeline-element--education"
           date="January 2020 - July 2023 (expected)"
-          iconStyle={{ background: "red", color: "#fff" }}
+          iconStyle={{ background: "#eccb46", color: "#fff" }}
           icon={<IoSchoolSharp />}
         >
           <h3 className="vertical-timeline-element-title">

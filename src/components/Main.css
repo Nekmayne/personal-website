@@ -125,11 +125,7 @@
         align-items: center;
     }
 
-    .grid-item-2 img{
-        width: 380px;
-        height: 440px;
-    
-    }
+
 
     .grid-item-1 {
         order: 2;

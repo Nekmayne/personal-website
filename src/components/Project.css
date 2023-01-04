@@ -184,6 +184,14 @@
 
 @media screen and (max-width: 610px) {
     .about-container {
-        margin-right: 200px;
+
+
     }   
+
+    .thecard {
+      width: 70%;
+    }
+    .thecard h1{
+      font-size: 10px;
+    }
 }

@@ -20,6 +20,8 @@ const Project = () => {
             <div className="backcard">
               <a
                 href="https://github.com/Nekmayne/cryptoTracker"
+                target="_blank"
+                rel="noreferrer"
                 className="github-button"
               >
                 Read more
@@ -50,6 +52,8 @@ const Project = () => {
             <div className="backcard">
               <a
                 href="https://github.com/Nekmayne/PTfront"
+                target="_blank"
+                rel="noreferrer"
                 className="github-button"
               >
                 Read more

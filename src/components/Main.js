@@ -16,11 +16,11 @@ const Main = () => {
           >
             Joonas
           </h1>{" "}
-          <p style={{ color: "white", fontSize: "25px" }}>
+          <p style={{ color: "white" }}>
             My name is Joonas Niskanen and I will soon graduate as a software
             developer.
           </p>{" "}
-          <p style={{ color: "white", fontSize: "25px" }}>
+          <p style={{ color: "white" }}>
             I am passionate about software development and I am excited to begin
             my career in the field.
           </p>

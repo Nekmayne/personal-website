@@ -48,7 +48,7 @@ const NavBar = () => {
               to="main"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-170}
               duration={1000}
               className="nav-links"
               onClick={closeMobileMenu}
@@ -58,7 +58,7 @@ const NavBar = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="about"
+              to="projects"
               spy={true}
               smooth={true}
               offset={-120}
@@ -66,7 +66,7 @@ const NavBar = () => {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              About
+              Projects
             </Link>
           </li>
           <li className="nav-item">
@@ -82,19 +82,7 @@ const NavBar = () => {
               Experience
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              to="gallery"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={1000}
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Gallery
-            </Link>
-          </li>
+
           <li className="nav-item">
             <Link
               to="contact"

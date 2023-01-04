@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: 200px;
-    background-image: linear-gradient(to right, #4568dc 0%, #b06ab3 50%);
+    background-image: linear-gradient(to left, #100f0f 50%, rgb(5, 5, 5) 100%);
 
     /* color: white; */
     display: flex;
@@ -37,7 +37,7 @@
 
 
   .social-icons .github {
-    color:black;
+    color:white;
     
   }
 

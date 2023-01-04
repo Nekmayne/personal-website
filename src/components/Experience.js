@@ -14,7 +14,8 @@ const Experience = () => {
         <VerticalTimelineElement
           contentStyle={{
             color: "white",
-            backgroundColor: "#4568dc",
+            backgroundImage:
+              "linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%)",
             fontSize: "1.5rem",
           }}
           className="vertical-timeline-element--education"
@@ -30,7 +31,8 @@ const Experience = () => {
         <VerticalTimelineElement
           contentStyle={{
             color: "white",
-            backgroundColor: "#4568dc",
+            backgroundImage:
+              "linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%)",
             fontSize: "1.5rem",
           }}
           className="vertical-timeline-element--education"
@@ -46,7 +48,8 @@ const Experience = () => {
         <VerticalTimelineElement
           contentStyle={{
             color: "white",
-            backgroundColor: "#4568dc",
+            backgroundImage:
+              "linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%)",
             fontSize: "1.5rem",
           }}
           className="vertical-timeline-element--education"
@@ -60,7 +63,8 @@ const Experience = () => {
         <VerticalTimelineElement
           contentStyle={{
             color: "white",
-            backgroundColor: "#4568dc",
+            backgroundImage:
+              "linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%)",
             fontSize: "1.5rem",
           }}
           className="vertical-timeline-element--education"

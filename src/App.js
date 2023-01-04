@@ -1,13 +1,12 @@
 import NavBar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import About from "./components/About";
+import Project from "./components/Project";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import "./styles.css";
 import Experience from "./components/Experience";
-// import Projects from "./components/Projects";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -15,10 +14,8 @@ function App() {
       <Router>
         <NavBar />
         <Main />
-        <About />
+        <Project />
         <Experience />
-        {/*<Projects /> */}
-        <Gallery />
         <Contact />
         <Footer />
       </Router>

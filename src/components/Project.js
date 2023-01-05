@@ -17,7 +17,7 @@ const Project = () => {
               </div>
               <img src={crypto1} alt="haha" />
             </div>
-            <div className="backcard">
+            {/*<div className="backcard">
               <a
                 href="https://github.com/Nekmayne/cryptoTracker"
                 target="_blank"
@@ -26,7 +26,7 @@ const Project = () => {
               >
                 Read more
               </a>
-            </div>
+  </div>*/}
           </div>
           <div className="thecard">
             <div className="frontcard2">
@@ -35,12 +35,12 @@ const Project = () => {
               </div>
               <img src={schoolproject} alt="haha" />
             </div>
-            <div className="backcard">
+            {/* <div className="backcard">
               <h1>
                 This repo I can't link but technologies used were PHP with
                 Laravels framework and Vue.js
               </h1>
-            </div>
+            </div>*/}
           </div>
           <div className="thecard">
             <div className="frontcard3">
@@ -49,7 +49,7 @@ const Project = () => {
                 <img src={personaltrainer} alt="haha" />
               </div>
             </div>
-            <div className="backcard">
+            {/* <div className="backcard">
               <a
                 href="https://github.com/Nekmayne/PTfront"
                 target="_blank"
@@ -58,7 +58,7 @@ const Project = () => {
               >
                 Read more
               </a>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>

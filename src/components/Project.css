@@ -39,9 +39,9 @@
   
 }
 
-.thecard:hover{
+/* .thecard:hover{
     transform: rotateY(180deg);
-  }
+  } */
   
   .frontcard {
   display: flex;
@@ -118,7 +118,7 @@
     max-height: 100%;
     border-radius: 5%;
 }
-  .backcard {
+  /* .backcard {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +135,7 @@
     align-items: center;
     transform: rotateY(180deg);
     color: white;
-  }
+  } */
 
   .frontcard h1, .backcard h1{
   font-family: 'zilla slab', sans-serif;   

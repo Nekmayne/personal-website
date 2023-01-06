@@ -1,12 +1,11 @@
 import NavBar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Project from "./components/Project";
-import Gallery from "./components/Gallery";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import "./styles.css";
 import Experience from "./components/Experience";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       <Router>
         <NavBar />
         <Main />
-        <Project />
+        <Projects />
         <Experience />
         <Contact />
         <Footer />

@@ -1,13 +1,15 @@
-.gallery {
+.projects {
     width: 100%;
     background-image: linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%);
 }
+.projects .card {
+    padding: 0;
+}
 
-.gallery .container {
+.projects .container2 {
     width: 1240px;
     margin: 0rem auto;
     padding: 1rem 0rem;
-    
 }
 
 .pic-slider {
@@ -16,52 +18,48 @@
     position: relative;
 }
 
-.pic-slider .card img {
-    padding: 25px;
-}
-
-.gallery h1 {
+.projects h1 {
     font-size: 4rem;
     text-align: center;
     color: white;
 }
 
-.gallery h3 {
+.projects h3 {
     font-size: 2rem;
     text-align: center;
     color: white;
 }
 
-.gallery img {
+.projects img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     border-radius: 50px;
     width: 350px;
-    height: 350px;
+    height: 550px;
     align-items: center;
 }
 
 
-.gallery .card p {
+.card a {
     color: white;
     font-weight: 800;
     font-size: 1.4rem;
+    display: block;
     text-align: center;
 }
 
 @media screen and (max-width: 1260px) {
-    .gallery .container {
+    .projects .container2 {
         width: 100%;
     }
 
-    .gallery .card {
+    .projects .card {
         max-width: 100%;
         margin: 25px;
     }
 
-    .gallery h1 {
+    .projects h1 {
         font-size: 3rem;
     }
 

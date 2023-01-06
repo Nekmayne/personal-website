@@ -1,4 +1,5 @@
 .navbar {
+  top: 0;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -65,9 +66,7 @@
   .navbar-container .hamburger-menu {
       display: block;
       cursor: pointer;
-
     }
-
     .nav-menu {
       display: flex;
       flex-direction: column;

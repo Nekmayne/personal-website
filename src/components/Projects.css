@@ -2,20 +2,14 @@
     width: 100%;
     background-image: linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%);
 }
-.projects .card {
-    padding: 0;
-}
 
 .projects .container2 {
-    width: 1240px;
-    margin: 0rem auto;
-    padding: 1rem 0rem;
-}
-
-.pic-slider {
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
 }
 
 .projects h1 {
@@ -30,17 +24,6 @@
     color: white;
 }
 
-.projects img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
-    width: 350px;
-    height: 550px;
-    align-items: center;
-}
-
-
 .card a {
     color: white;
     font-weight: 800;
@@ -53,14 +36,25 @@
     .projects .container2 {
         width: 100%;
     }
+}
 
-    .projects .card {
-        max-width: 100%;
-        margin: 25px;
-    }
-
+@media screen and (max-width: 850px) {
     .projects h1 {
-        font-size: 3rem;
+        font-size: 2em;
     }
+    .projects .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects .card {
+        margin-bottom: 50px;
+    }
+}
 
+@media screen and (max-width: 450px) {
+    .container2 .card img {
+        width: 303px;
+        height: 541px;
+        object-fit: contain;
+    }
 }

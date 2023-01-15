@@ -23,35 +23,29 @@ const Projects = () => {
 
   return (
     <div className="projects">
+      <h1>Projects</h1>
       <div className="container2">
-        <h1>Projects</h1>
-        <Carousel
-          responsive={responsive}
-          infinite={true}
-          className="pic-slider"
-        >
-          <div className="card">
-            <img src={personaltrainer} alt="PersonalTrainer" />
-            <a
-              href="https://github.com/Nekmayne/PTfront"
-              target="_blank"
-              rel="noreferrer"
-            >
-              PersonalTrainer
-            </a>
-          </div>
+        <div className="card">
+          <img src={personaltrainer} alt="PersonalTrainer" />
+          <a
+            href="https://github.com/Nekmayne/PTfront"
+            target="_blank"
+            rel="noreferrer"
+          >
+            PersonalTrainer
+          </a>
+        </div>
 
-          <div className="card">
-            <img src={crypto1} alt="Crypto" />
-            <a
-              href="https://github.com/Nekmayne/cryptoTracker"
-              target="_blank"
-              rel="noreferrer"
-            >
-              CryptoTracker
-            </a>
-          </div>
-        </Carousel>
+        <div className="card">
+          <img src={crypto1} alt="Crypto" />
+          <a
+            href="https://github.com/Nekmayne/cryptoTracker"
+            target="_blank"
+            rel="noreferrer"
+          >
+            CryptoTracker
+          </a>
+        </div>
       </div>
     </div>
   );

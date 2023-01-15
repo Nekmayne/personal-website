@@ -34,10 +34,10 @@ const Main = () => {
             methods.
           </p>{" "}
           <p>
-            As a recent graduate, I am highly motivated to continue learning and
-            growing as a software developer and am excited for the opportunity
-            to apply my skills in a professional setting. I am looking for a
-            entry level position where I can learn and grow as a developer.
+            I am highly motivated to continue learning and growing as a software
+            developer and am excited for the opportunity to apply my skills in a
+            professional setting. I am looking for an entry level position where
+            I can learn and grow as a developer.
           </p>
         </div>
         <div className="item-2">

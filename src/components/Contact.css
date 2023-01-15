@@ -14,8 +14,9 @@
     margin-bottom: 30px;
 }
 .box h1 {
-    margin-top: 30px;
+    padding: 10px;
     text-align: center;
+    font-size: 45px;
 }
 .contact-container {
     width: 100%;

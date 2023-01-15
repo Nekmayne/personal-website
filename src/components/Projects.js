@@ -28,6 +28,7 @@ const Projects = () => {
         <div className="card">
           <img src={personaltrainer} alt="PersonalTrainer" />
           <a
+            className="project-"
             href="https://github.com/Nekmayne/PTfront"
             target="_blank"
             rel="noreferrer"

@@ -5,8 +5,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <div className="footer">
-      <p> &copy; joonasniskanen 2022</p>
-      <h1>SOCIALS</h1>
+      <h1>Socials</h1>
       <div className="social-icons">
         <a
           href="https://www.linkedin.com/in/joonas-niskanen/"

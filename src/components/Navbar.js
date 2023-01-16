@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <nav className="navbar-container">
-        <Link to="main" spy={true} smooth={true} offset={0} duration={1000}>
+        <Link to="main" spy={true} smooth={true} offset={-170} duration={1000}>
           <img src={logo} alt="logo" />
         </Link>
 
@@ -67,6 +67,19 @@ const NavBar = () => {
               onClick={closeMobileMenu}
             >
               Projects
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-180}
+              duration={1000}
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Skills
             </Link>
           </li>
           <li className="nav-item">

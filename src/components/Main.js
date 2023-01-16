@@ -24,20 +24,21 @@ const Main = () => {
           />
           <p>
             As a soon-to-be graduating software developer from Haaga-Helia, I am
-            eager to start my career in the software development field and bring
-            my skills and experience to a team.{" "}
+            eager to start my career in the software development field to have
+            an impact on people's lives and become a better developer.{" "}
           </p>{" "}
           <p>
             My background in JavaScript, React, and Node has given me a solid
             foundation in frontend and backend development. I have also gained
-            basic knowledge of databases and experience working with agile
-            methods.
+            basic knowledge of databases and have some experience working with
+            agile methods.
           </p>{" "}
           <p>
             I am highly motivated to continue learning and growing as a software
-            developer and am excited for the opportunity to apply my skills in a
-            professional setting. I am looking for an entry level position where
-            I can learn and grow as a developer.
+            developer and I am excited for the opportunity to apply my skills in
+            a professional setting. I am confident that with the opportunity to
+            work with more experienced developers, I will continue to grow as a
+            developer and become a valuable asset to any team.
           </p>
         </div>
         <div className="item-2">

@@ -1,0 +1,108 @@
+.main-heading h1{
+    background-image: linear-gradient(to left, #100f0f 50%, rgb(5, 5, 5) 100%);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #100f0f 50%, rgb(5, 5, 5) 100%);
+  }
+  
+  .skills-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: space-around;
+  }
+  
+  .skill-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 35%;
+  }
+
+  .skill-1 span {
+    color: white;
+    font-size: clamp(2rem, 4.5vw, 3rem);
+  }
+  
+  .skill-1 h1 {
+    font-size: clamp(3rem, 4.5vw, 5rem);
+    color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+  
+  .skill-1 p {
+    margin-top: 15px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .skill-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+  }
+
+  .skill-2 p{
+    color: white;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .cont {
+    width: 100%;
+    background-color: white;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 80%; background-color: #E44D26;}
+  .css {width: 75%; background-color: #2196F3;}
+  .js {width: 75%; background-color: #F0DB4F;}
+  .react {width: 70%; background-color: #61DBFB;}
+  .nodejs {width: 65%; background-color: #58A845;}
+  .databases {width: 60%; background-color: #B002CA;}
+
+  @media screen and (max-width: 850px) {
+
+    .skills.container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-1 {
+        width: 90%;
+
+    }
+
+    .skill-2 {
+        margin-bottom: 30px;
+        width: 60%;
+    }
+
+}

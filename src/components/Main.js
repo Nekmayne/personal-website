@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import Typed from "react-typed";
 import "animate.css";
 import Profile from "../images/profile.png";
@@ -19,7 +18,7 @@ const Main = () => {
               "Good foundation in Front and Backend",
             ]}
             typeSpeed={50}
-            backSpeed={50}
+            fadeOut
             loop
           />
           <p>

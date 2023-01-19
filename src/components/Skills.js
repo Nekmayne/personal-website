@@ -4,10 +4,10 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="main-heading">
-      <h1>Skills</h1>
       <div className="skills-container" id="skills">
         <div className="skills-area">
           <div className="skill-1">
+            <h1>Skills</h1>
             <p>
               I have gained some good experience with Javascript and React.
               Additionally, I have some experience working with Node.js and

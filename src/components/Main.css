@@ -35,7 +35,7 @@
   
   .item-1 h1 {
     font-size: clamp(3rem, 4.5vw, 5rem);
-    color: rgba(255, 255, 255, 0.1);
+    color: white;
     text-align: center;
   }
   
@@ -45,6 +45,10 @@
     color: white;
   }
   
+  .typed {
+    color: green
+  }
+
   .item-2 {
     display: flex;
     justify-content: center;

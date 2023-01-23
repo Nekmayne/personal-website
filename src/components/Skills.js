@@ -16,21 +16,14 @@ const Skills = () => {
             </p>{" "}
           </div>
           <div className="skill-2">
-            <p>HTML</p>
-            <div class="cont">
-              <div class="skills html">80%</div>
-            </div>
-
-            <p>CSS</p>
-            <div class="cont">
-              <div class="skills css">75%</div>
-            </div>
-
             <p>JavaScript</p>
             <div class="cont">
               <div class="skills js">75%</div>
             </div>
-
+            <p>CSS</p>
+            <div class="cont">
+              <div class="skills css">75%</div>
+            </div>
             <p>React</p>
             <div class="cont">
               <div class="skills react">70%</div>

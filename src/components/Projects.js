@@ -3,7 +3,7 @@ import "./Projects.css";
 import "react-multi-carousel/lib/styles.css";
 import crypto1 from "../images/crypto1.png";
 import personaltrainer from "../images/personaltrainer.png";
-import weather from "../images/weather.png";
+import weather from "../images/weather1.png";
 
 const Projects = () => {
   return (
@@ -30,7 +30,7 @@ const Projects = () => {
           <img className="project2-img" src={weather} alt="WeatherApp" />
           <a
             className="project-"
-            href="https://github.com/Nekmayne/weatherApp-vite"
+            href="https://github.com/Nekmayne/weatherapp"
             target="_blank"
             rel="noreferrer"
           >

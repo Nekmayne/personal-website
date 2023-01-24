@@ -45,8 +45,9 @@
     color: white;
   }
   
-  .typed {
-    color: green
+  .item-1 span {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.342);
   }
 
   .item-2 {

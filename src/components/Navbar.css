@@ -112,7 +112,10 @@
       width: 100%;
       display: table;
     }
+}
 
- 
-  
+@media screen and (max-width: 340px) {
+  .nav-menu.active .nav-item {
+    padding: 0;
+    }
 }

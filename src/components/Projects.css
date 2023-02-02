@@ -1,92 +1,121 @@
 .projects {
-    width: 100%;
-    background-image: linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%);
+  width: 100%;
+  background-image: linear-gradient(to right, #100f0f 50%, rgb(5, 5, 5) 100%);
 }
 
 .projects .container2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content:left;
-    max-width: 100%;
-    height: auto;
-    margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
 }
 
 .projects h1 {
-    font-size: clamp(3rem, 4.5vw, 5rem);
-    text-align: center;
-    color: white;
-    padding: 10px;
+  font-size: clamp(3rem, 4.5vw, 5rem);
+  text-align: center;
+  color: white;
+  padding: 10px;
 }
 
 .projects h3 {
-    font-size: 2rem;
-    text-align: center;
-    color: white;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.projects h4 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
 }
 
 .card {
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card a {
-    color: white;
-    font-weight: 800;
-    font-size: 1.4rem;
-    display: block;
-    text-align: center;
-    margin-top: 15px;
+  color: white;
+  font-weight: 800;
+  font-size: 1.4rem;
+  display: block;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .project-img {
-    width: 200px;
-    opacity: 1;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-    box-shadow: 0 0 5px 5px rgb(75, 74, 74);
+  width: 400px;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 5px 5px rgb(16, 85, 119);
 }
 
 .project-img:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .project2-img {
-    width: 420px;
-    opacity: 1;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-    box-shadow: 0 0 5px 5px rgb(80,154,243);
+  width: 420px;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 5px 5px rgb(80, 154, 243);
 }
 
 .project2-img:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
-@media screen and (max-width: 900px) {
-    .projects .container2 {
-        grid-template-columns: 1fr 2fr;
-    }
+.project3-img {
+  width: 200px;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 5px 5px rgb(75, 74, 74);
 }
 
-@media screen and (max-width: 670px) {
-    .projects .container2 {
-        grid-template-columns: 1fr;
-        row-gap: 25px;
-    }
-    .project2-img {
-        width: 90%;
-    }
-    .card1 {
-        order: 2;
-    }
-    .card2 {
-        order: 1;
-    }
-    .card3 {
-        order: 3;
-    }
+@media screen and (max-width: 1100px) {
+  .projects .container2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card1 {
+    order: 2;
+  }
+  .card2 {
+    order: 1;
+  }
+  .card3 {
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .projects .container2 {
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+  }
+  .project2-img {
+    width: 90%;
+  }
+
+  .project-img {
+    width: 90%;
+  }
+
+  .card1 {
+    order: 2;
+  }
+  .card2 {
+    order: 1;
+  }
+  .card3 {
+    order: 3;
+  }
 }

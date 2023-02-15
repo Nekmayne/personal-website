@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.b1757cb7.css",
-    "main.js": "/personal-website/static/js/main.afcb4c6d.js",
-    "static/media/crypto1.png": "/personal-website/static/media/crypto1.c38bfe8b6021433dd2c0.png",
+    "main.css": "/personal-website/static/css/main.88c4edda.css",
+    "main.js": "/personal-website/static/js/main.f79c79b5.js",
     "static/media/weather1.png": "/personal-website/static/media/weather1.84e0bb8778fdac08002c.png",
     "static/media/profile.png": "/personal-website/static/media/profile.024b77b16559cdf2c0e8.png",
     "static/media/wolt.png": "/personal-website/static/media/wolt.38b1cb59f7f3766d965b.png",
+    "static/media/citybike.png": "/personal-website/static/media/citybike.e6b219ae3c2c34d14ee7.png",
+    "static/media/vue.png": "/personal-website/static/media/vue.6764d7b3c51f3f24f538.png",
+    "static/media/mongodb.png": "/personal-website/static/media/mongodb.966dfd1100e42eaa0dd7.png",
+    "static/media/react.png": "/personal-website/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/personal-website/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/css3.png": "/personal-website/static/media/css3.443bc827ad57da012b4b.png",
+    "static/media/typescript.png": "/personal-website/static/media/typescript.52ea0bc40ba11d507e7d.png",
+    "static/media/html.png": "/personal-website/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/personal-website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/docker.png": "/personal-website/static/media/docker.82153b5aad16f392b3d2.png",
     "static/media/jn-logo.png": "/personal-website/static/media/jn-logo.e9dc29354f88713e3d8b.png",
     "static/media/revicons.eot": "/personal-website/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/personal-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/javascript.png": "/personal-website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/revicons.woff": "/personal-website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/personal-website/index.html",
-    "main.b1757cb7.css.map": "/personal-website/static/css/main.b1757cb7.css.map",
-    "main.afcb4c6d.js.map": "/personal-website/static/js/main.afcb4c6d.js.map"
+    "main.88c4edda.css.map": "/personal-website/static/css/main.88c4edda.css.map",
+    "main.f79c79b5.js.map": "/personal-website/static/js/main.f79c79b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1757cb7.css",
-    "static/js/main.afcb4c6d.js"
+    "static/css/main.88c4edda.css",
+    "static/js/main.f79c79b5.js"
   ]
 }

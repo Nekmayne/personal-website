@@ -68,7 +68,7 @@ const Contact = () => {
             />
 
             <div className="btn">
-              <input className="contact-button" type="submit" value="send" />
+              <input className="contact-button" type="submit" value="Send" />
             </div>
             <ToastContainer
               position="top-center"

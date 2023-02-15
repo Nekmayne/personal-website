@@ -11,7 +11,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="container2">
         <div className="card card3">
-          <img className="project3-img" src={citybike} alt="Crypto" />
+          <img className="project3-img" src={citybike} alt="Citybike" />
           <a
             href="https://github.com/Nekmayne/citybikeapp-solita"
             target="_blank"
@@ -31,7 +31,7 @@ const Projects = () => {
           </a>
         </div>
         <div className="card card1">
-          <img className="project-img" src={wolt} alt="wolt-calculator" />
+          <img className="project-img" src={wolt} alt="Wolt-calculator" />
           <a
             href="https://github.com/Nekmayne/Wolt-Calculator"
             target="_blank"
